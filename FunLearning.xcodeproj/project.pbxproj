@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C8ECBF8F4ADB13363686A89 /* Pods_FunLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDFAE15D8AB3541A3E33AE0 /* Pods_FunLearning.framework */; };
+		5B295D3720F09E98002DE72D /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B295D3620F09E98002DE72D /* QuizViewController.swift */; };
+		5B295D3920F0A8EE002DE72D /* QuizCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B295D3820F0A8EE002DE72D /* QuizCollectionViewCell.swift */; };
+		5B295D3B20F10BBB002DE72D /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B295D3A20F10BBB002DE72D /* Object.swift */; };
+		5B295D3D20F10C3E002DE72D /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B295D3C20F10C3E002DE72D /* DatabaseManager.swift */; };
 		5B70D3FF20F0211100196E7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70D3FE20F0211100196E7A /* AppDelegate.swift */; };
 		5B70D40120F0211100196E7A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B70D40020F0211100196E7A /* art.scnassets */; };
-		5B70D40320F0211100196E7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70D40220F0211100196E7A /* ViewController.swift */; };
 		5B70D40620F0211100196E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B70D40420F0211100196E7A /* Main.storyboard */; };
 		5B70D40820F0211300196E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B70D40720F0211300196E7A /* Assets.xcassets */; };
 		5B70D40B20F0211300196E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B70D40920F0211300196E7A /* LaunchScreen.storyboard */; };
+		5B70D41320F0236500196E7A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70D41220F0236500196E7A /* HomeViewController.swift */; };
+		5B70D41520F0287100196E7A /* ObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70D41420F0287100196E7A /* ObjectModel.swift */; };
+		5B70D41720F02AD600196E7A /* ObjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70D41620F02AD600196E7A /* ObjectCollectionViewCell.swift */; };
+		5B70D41920F02E1D00196E7A /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B70D41820F02E1D00196E7A /* utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CDFAE15D8AB3541A3E33AE0 /* Pods_FunLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B295D3620F09E98002DE72D /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		5B295D3820F0A8EE002DE72D /* QuizCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCollectionViewCell.swift; sourceTree = "<group>"; };
+		5B295D3A20F10BBB002DE72D /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		5B295D3C20F10C3E002DE72D /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		5B70D3FB20F0211100196E7A /* FunLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B70D3FE20F0211100196E7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B70D40020F0211100196E7A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		5B70D40220F0211100196E7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B70D40520F0211100196E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B70D40720F0211300196E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B70D40A20F0211300196E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B70D40C20F0211400196E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B70D41220F0236500196E7A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5B70D41420F0287100196E7A /* ObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectModel.swift; sourceTree = "<group>"; };
+		5B70D41620F02AD600196E7A /* ObjectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectCollectionViewCell.swift; sourceTree = "<group>"; };
+		5B70D41820F02E1D00196E7A /* utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utilities.swift; sourceTree = "<group>"; };
+		62F2CAC4F43F0BC0F410806F /* Pods-FunLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunLearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunLearning/Pods-FunLearning.debug.xcconfig"; sourceTree = "<group>"; };
+		C5C527E4F885FBDC521FDDB9 /* Pods-FunLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunLearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunLearning/Pods-FunLearning.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8ECBF8F4ADB13363686A89 /* Pods_FunLearning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29DF3F6BDD6816B561FCA479 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62F2CAC4F43F0BC0F410806F /* Pods-FunLearning.debug.xcconfig */,
+				C5C527E4F885FBDC521FDDB9 /* Pods-FunLearning.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		45911DF86C9E0B1DA0B5C45B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CDFAE15D8AB3541A3E33AE0 /* Pods_FunLearning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B70D3F220F0211100196E7A = {
 			isa = PBXGroup;
 			children = (
 				5B70D3FD20F0211100196E7A /* FunLearning */,
 				5B70D3FC20F0211100196E7A /* Products */,
+				29DF3F6BDD6816B561FCA479 /* Pods */,
+				45911DF86C9E0B1DA0B5C45B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +95,19 @@
 			isa = PBXGroup;
 			children = (
 				5B70D3FE20F0211100196E7A /* AppDelegate.swift */,
+				5B295D3A20F10BBB002DE72D /* Object.swift */,
+				5B295D3C20F10C3E002DE72D /* DatabaseManager.swift */,
 				5B70D40020F0211100196E7A /* art.scnassets */,
-				5B70D40220F0211100196E7A /* ViewController.swift */,
 				5B70D40420F0211100196E7A /* Main.storyboard */,
+				5B295D3820F0A8EE002DE72D /* QuizCollectionViewCell.swift */,
+				5B70D41220F0236500196E7A /* HomeViewController.swift */,
+				5B70D41420F0287100196E7A /* ObjectModel.swift */,
+				5B70D41620F02AD600196E7A /* ObjectCollectionViewCell.swift */,
+				5B70D41820F02E1D00196E7A /* utilities.swift */,
 				5B70D40720F0211300196E7A /* Assets.xcassets */,
 				5B70D40920F0211300196E7A /* LaunchScreen.storyboard */,
 				5B70D40C20F0211400196E7A /* Info.plist */,
+				5B295D3620F09E98002DE72D /* QuizViewController.swift */,
 			);
 			path = FunLearning;
 			sourceTree = "<group>";
@@ -74,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B70D40F20F0211400196E7A /* Build configuration list for PBXNativeTarget "FunLearning" */;
 			buildPhases = (
+				D5463419BCFFA193C453DD90 /* [CP] Check Pods Manifest.lock */,
 				5B70D3F720F0211100196E7A /* Sources */,
 				5B70D3F820F0211100196E7A /* Frameworks */,
 				5B70D3F920F0211100196E7A /* Resources */,
+				58A2FBB156AABE64DC034AE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,13 +181,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58A2FBB156AABE64DC034AE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FunLearning/Pods-FunLearning-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunLearning/Pods-FunLearning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5463419BCFFA193C453DD90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunLearning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B70D3F720F0211100196E7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B70D40320F0211100196E7A /* ViewController.swift in Sources */,
+				5B70D41920F02E1D00196E7A /* utilities.swift in Sources */,
+				5B295D3720F09E98002DE72D /* QuizViewController.swift in Sources */,
+				5B70D41520F0287100196E7A /* ObjectModel.swift in Sources */,
 				5B70D3FF20F0211100196E7A /* AppDelegate.swift in Sources */,
+				5B70D41320F0236500196E7A /* HomeViewController.swift in Sources */,
+				5B295D3920F0A8EE002DE72D /* QuizCollectionViewCell.swift in Sources */,
+				5B295D3B20F10BBB002DE72D /* Object.swift in Sources */,
+				5B70D41720F02AD600196E7A /* ObjectCollectionViewCell.swift in Sources */,
+				5B295D3D20F10C3E002DE72D /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +377,13 @@
 		};
 		5B70D41020F0211400196E7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F2CAC4F43F0BC0F410806F /* Pods-FunLearning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EKM82MG69H;
 				INFOPLIST_FILE = FunLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +397,13 @@
 		};
 		5B70D41120F0211400196E7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C527E4F885FBDC521FDDB9 /* Pods-FunLearning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EKM82MG69H;
 				INFOPLIST_FILE = FunLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

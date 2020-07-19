@@ -7,3 +7,11 @@
 //
 
 import Foundation
+import RealmSwift
+
+class Item : Object {
+    @objc dynamic var itemName  = ""
+    @objc dynamic var itemImgURL  = ""
+    
+}
+
